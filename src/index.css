@@ -1,0 +1,127 @@
+:root {
+    --Cyan-fuerte: hsl(172, 67%, 45%);
+    --Cyan-muy-oscuro: hsl(183, 100%, 15%);
+    --Cyan-grisaceo-oscuro: hsl(186, 14%, 43%);
+    --Cyan-grisaceo: hsl(184, 14%, 56%);
+    --Cyan-grisaceo-ligero: hsl(185, 41%, 84%);
+    --Cyan-grisaceo-muy-ligero: hsl(189, 41%, 97%);
+    --Blanco: hsl(0, 0%, 100%);
+    --Tamaño-forms: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--Cyan-grisaceo-ligero);
+    width: 100%;
+    height: 100vh;
+    font-family: 'Space Mono', sans-serif;
+}
+
+@media(min-width: 1440px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.input {
+    border: none;
+    outline: none;
+    background-color: var(--Cyan-grisaceo-muy-ligero);
+    border-radius: 5px;
+    text-align: right;
+    padding: 5px;
+    padding-right: 18px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--Cyan-muy-oscuro);
+    font-family: 'Space Mono', sans-serif;
+    background-repeat: no-repeat;
+    background-position: 17px 15px;
+}
+
+
+
+@media(min-width: 1440px) {
+    .input {
+        width: 100%;
+    }
+}
+
+#custom-tip input {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.custom-tip {
+    border: none;
+    color: var(--Cyan-muy-oscuro);
+    text-align: center;
+    font-family: 'Space Mono', sans-serif;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.input-bill {
+    background-image: url(../src/img/icon-dollar.svg);
+    margin-bottom: 36px;
+}
+
+.input-people {
+    background-image: url(../src/img/icon-person.svg);
+    margin-bottom: 36px;
+}
+
+.input-error {
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.d--flex {
+    display: flex;
+    justify-content: space-between
+}
+
+/*
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Strong cyan: hsl(172, 67%, 45%)
+
+### Neutral
+
+- Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Very light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (form inputs): 24px
+
+### Font
+
+- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Weights: 700*/
